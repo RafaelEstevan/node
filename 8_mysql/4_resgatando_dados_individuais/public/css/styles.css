@@ -1,0 +1,64 @@
+* {
+    font-family: Helvetica, sans-serif;
+  }
+
+  #navbar{
+    border-bottom: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+
+  #navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+  }
+
+  #navbar li{
+    padding: 1em;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  .form, .books-container {
+    width: 450px;
+    margin: 0 auto;
+  }
+  
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+  }
+  
+  .form-control label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+  }
+  
+  .form-control input {
+    padding: 5px;
+  }
+
+  /* Books */
+
+  .books-container div{
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  /* Book */
+  #book-page{
+    padding: 2em;
+  }
+
+  #book-page .container{
+    text-align: center;
+  }

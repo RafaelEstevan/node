@@ -1,0 +1,13 @@
+<h1>Todas as Tasks</h1>
+<ul class="task-list">
+  {{#each tasks}}
+    <li>
+      <a href="/tasks" class="title">{{this.title}}</a>
+      <div class="actions">
+        <a href="/"><i class="material-symbols-outlined">done</i></a>
+        <a href="/"><i class="material-symbols-outlined">edit</i></a>
+        <a href="/"><i class="material-symbols-outlined">delete</i></a>
+      </div>
+    </li>
+  {{/each}}
+</ul>
